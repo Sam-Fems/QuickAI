@@ -36,7 +36,7 @@ const GenerateImages = () => {
 
         <div className='my-6 flex items-center gap-2'>
           <label className='relative cursor-pointer'>
-            <input type="checkbox" onChange={(event) => setPublish(event.target.checked)} checked={publish} className='sr-only-peer' />
+            <input type="checkbox" onChange={(event) => setPublish(event.target.checked)} checked={publish} className='peer sr-only' />
 
             <div className='w-9 h-5 bg-slate-300 rounded-full peer-checked:bg-green-500 transition'></div>
 
