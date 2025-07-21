@@ -21,7 +21,7 @@ const ReviewResume = () => {
 
         <input onChange={(event) => setInput(event.target.files[0])} type='file' accept='application/pdf' className='w-full p-2 px-3 mt-2 outline-none text-sm rounded-md border border-gray-300 text-gray-600' required />
 
-        <p className='text-xs text-gray-500 font-light mt-1'>Supports PDF resume onlye</p>
+        <p className='text-xs text-gray-500 font-light mt-1'>Supports PDF resume only</p>
 
         <button className='w-full flex justify-center items-center gap-2 bg-gradient-to-r from-[#F6AB41] to-[#FF4938] text-white px-4 py-2 mt-6 text-sm rounded-lg cursor-pointer'>
           <FileText className='w-5' />
